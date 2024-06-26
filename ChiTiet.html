@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SẢN PHẨM CHI TIẾT</title>
+    <link rel="stylesheet" href="main6.css">
+</head>
+
+<body>
+    <?php
+    $imgName = $_GET["param1"];
+    ?>
+    <div id="wrapper">
+        <header class="header-main">
+            <img class="logo" src="./images/unicornlogo.png" alt="">
+        </header>
+        <nav class="nav-main">
+            <ul>
+                <li><a href="TrangChu.html">Home</a></li>
+                <li><a href="SanPham.html">Grades</a>
+                    <ul class="submenu">
+                        <li><a href="Hg.html">Hg</a></li>
+                        <li><a href="Rg.html">Rg</a></li>
+                        <li><a href="Mg.html">MG</a></li>
+                        <li><a href="Pg.html">Pg</a></li>
+                    </ul>
+                </li>
+                <li><a href=mycolection.html">My colection</a></li>
+                <li><a href="LienHe.html">Contacts</a></li>
+                <li><a href="DangNhap.html">login</a>
+                    <ul class="submenu">
+                        <li><a href="DangKi.html">sign-in</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form action="">
+                <input type="text" required class="text">
+                <input type="submit" value="Tìm Kiếm" class="timkiem">
+            </form>
+        </nav>
+        <aside>
+            <img src="./images/banergundam.jpg" alt="" class="bannerchinh">
+        </aside>
+        <div class="content">
+            <div class="content-left">
+                <img src="./images/kujojotaro.jpg" alt="" class="bannerT">
+                <img src="./images/jojonotjojo.jpg" alt="" class="bannerP">
+                <P class="danhmuc">CHI TIẾT SẢN PHẨM</P>
+                <div class="chi-tiet">
+                    <img class="anhsp" src="<?php echo $imgName; ?>" alt="">
+                    <p><?php echo $imgName; ?></p>
+                    <div>
+                        <h2>Giỏ quà tết cao cấp</h2>
+                        <span>70 Đánh giá</span><span> | 100+ Đã bán</span>
+                        <p>Giá bán: ₫ 600.000</p>
+                        <span>Set: Vang Tây Ban Nha Bayanegra Tempranillo Millinuts 10 thanh Vỏ Bưởi Sấy Dẻo 300g - Lon
+                            Nhựa</span><br>
+                        <input type="number" value="1" min="1">
+                        <button type="submit" class="btn">Thêm vào giỏ hàng</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <p class="danhmucR">Danh mục sản phẩm</p>
+                <div class="listP">
+                    <ul>
+                        <li><a href="">Rau Xanh</a></li>
+                        <li><a href="">Ăn Dặm Cho Bé</a></li>
+                        <li><a href="">Củ Quả</a></li>
+                        <li><a href="">Thịt Cá</a></li>
+                    </ul>
+                </div>
+                <p class="danhmucR">Tin khuyến mãi</p>
+                <div class="listP">
+                    <ul>
+                        <li><a href="">Khuyến mãi hót 2022</a></li>
+                        <li><a href="">Mua 1 Rau Xanh Tặng 1 Rau Xanh</a></li>
+                        <li><a href="">Thịt cá đầy nhà đón tết thả ga giảm đến 20%</a></li>
+                    </ul>
+                </div>
+                <p class="danhmucR">Quảng cáo</p>
+                <img src="./images/ads.png" alt="" class="anhqcao">
+            </div>
+        </div>
+        <footer class="footer-main">
+            Coppy Right Vu Manh Tu
+        </footer>
+    </div>
+</body>
+
+</html>
