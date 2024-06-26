@@ -1,0 +1,11 @@
+{
+  "trafer_percen": {
+    "done": 10,
+    "doing": 80,
+    "cancel": 20,
+    "report": 10
+  },
+  "money": 10,
+  "totol_USDT": 10,
+  "totol_VND": 10
+}
