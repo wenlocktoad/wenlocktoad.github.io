@@ -1,29 +1,29 @@
 {
-  "trafer_percen": {
+  "transfer_percentage": {
     "done": 10,
     "doing": 80,
     "cancel": 20,
     "report": 10
   },
   "money": 10,
-  "totol_USDT": 10,
-  "totol_VND": 10,
-  "report": "Welcome to FinnyFun! By using our whimsical financial app, you agree to comply with and be bound by these utterly ridiculous Terms of Service. If you do not agree with these terms, please kindly uninstall the app and go back to counting pennies by hand."
+  "total_USDT": 10,
+  "total_VND": 10,
+  "report": "Welcome to FinnyFun! By using our whimsical financial app, you agree to comply with and be bound by these utterly ridiculous Terms of Service. If you do not agree with these terms, please kindly uninstall the app and go back to counting pennies by hand.",
   "list": [
     {
-    "name": "bitCoin",
-    "percen": "70%",
-    "status": "done"
-  },
-      {
-    "name": "bitCoin",
-    "percen": "70%",
-    "status": "done"
-  },
-      {
-    "name": "bitCoin",
-    "percen": "70%",
-    "status": "done"
-  }
+      "name": "bitCoin",
+      "percentage": "70%",
+      "status": "done"
+    },
+    {
+      "name": "bitCoin",
+      "percentage": "70%",
+      "status": "done"
+    },
+    {
+      "name": "bitCoin",
+      "percentage": "70%",
+      "status": "done"
+    }
   ]
 }
